@@ -1,0 +1,50 @@
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #DA6F73;
+    }
+
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .macho {
+        background: #c5292f;
+        border-radius: 10px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.378);
+        padding: 10px;
+        text-align: left;
+    }
+
+    .macho img {
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .macho h2 {
+        margin: 10px 0;
+        font-size: 2em;
+        color: #29C5BF;
+    }
+
+    .macho p {
+        margin: 5px 0;
+        font-size: 1.5em;
+        color: #29C5BF;
+    }
+
+    .macho:hover {
+        transform: translateY(-5px); /* Move the box 5px up */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.599); /* Add a shadow effect */
+    }
